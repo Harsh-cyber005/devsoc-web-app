@@ -76,11 +76,11 @@ export default function Header() {
     <header className=" h-[10%] border-b-[#1F1F1F] border-b-solid border-b-[1px] flex justify-between">
       <div className=" flex pr-[4%] ml-10 justify-center items-center relative min-w-max">
         <Image
-          src={"/devsoc-text-logo.png"}
+          src={"/devsoc-text-logo.svg"}
           alt="vercel-logo"
           width={100}
           height={100}
-          className="  mr-[5%] w-fit aspect-auto h-[60%] cursor-pointer antialiased"
+          className=" ml-[5%]  mr-[5%] w-fit aspect-auto h-[60%] cursor-pointer antialiased"
         />
         <div
           onMouseEnter={() => {
