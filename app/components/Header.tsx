@@ -42,7 +42,7 @@ export default function Header() {
   function rotateArrowP() {
     if (arrowP) {
       arrowP.style.transform = "rotate(180deg)";
-      arrowP.style.transition = "transform 0.1s ease-in-out";
+      arrowP.style.transition = "transform 0.2s ease-in-out";
     }
   }
   function rotateArrowBackP() {
@@ -53,7 +53,7 @@ export default function Header() {
   function rotateArrowS() {
     if (arrowS) {
       arrowS.style.transform = "rotate(180deg)";
-      arrowS.style.transition = "transform 0.1s ease-in-out";
+      arrowS.style.transition = "transform 0.2s ease-in-out";
     }
   }
   function rotateArrowBackS() {
@@ -64,7 +64,7 @@ export default function Header() {
   function rotateArrowR() {
     if (arrowR) {
       arrowR.style.transform = "rotate(180deg)";
-      arrowR.style.transition = "transform 0.1s ease-in-out";
+      arrowR.style.transition = "transform 0.2s ease-in-out";
     }
   }
   function rotateArrowBackR() {
@@ -160,7 +160,7 @@ export default function Header() {
       </div>
       <div className=" flex px-[4%] mr-3 justify-end items-center grow">
         <div className=" text-[#868686] font-normal hover:text-[#E4E4E4] rounded-2xl flex justify-center items-center cursor-pointer">
-          <Link href={"/dashboard"}>Contact</Link>
+          <Link href={"/contacts"}>Contact</Link>
         </div>
         <div className="relative">
           <Image
