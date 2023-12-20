@@ -74,13 +74,13 @@ export default function Header() {
   }
   return (
     <header className=" h-[10%] border-b-[#1F1F1F] border-b-solid border-b-[1px] flex justify-between">
-      <div className=" flex pr-[4%] ml-10 justify-center items-center relative">
+      <div className=" flex pr-[4%] ml-10 justify-center items-center relative min-w-max">
         <Image
           src={"/devsoc-text-logo.png"}
           alt="vercel-logo"
           width={100}
           height={100}
-          className=" ml-[5%] mr-[5%] w-fit aspect-auto h-[60%] cursor-pointer antialiased"
+          className="  mr-[5%] w-fit aspect-auto h-[60%] cursor-pointer antialiased"
         />
         <div
           onMouseEnter={() => {
@@ -94,7 +94,7 @@ export default function Header() {
           className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a"
         >
           <Link href={"#"} className=" mr-1">
-            Products
+            Projects
           </Link>
           <Image
             ref={myRef_P}
@@ -117,7 +117,7 @@ export default function Header() {
           className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a"
         >
           <Link href={"#"} className=" mr-1">
-            Solutions
+            DevMate
           </Link>
           <Image
             ref={myRef_S}
@@ -140,7 +140,7 @@ export default function Header() {
           className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a"
         >
           <Link href={"#"} className=" mr-1">
-            Resources
+            Blogs
           </Link>
           <Image
             ref={myRef_R}
@@ -151,14 +151,14 @@ export default function Header() {
             className="aspect-auto h-[15px] w-[15px] cursor-pointer"
           />
         </div>
-        <div className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a">
-          <Link href={"#"}>Docs</Link>
+        <div className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a min-w-max">
+          <Link href={"#"}>Our Team</Link>
         </div>
-        <div className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a">
-          <Link href={"#"}>Blog</Link>
+        <div className=" relative text-[#868686] font-normal hover:text-[#E4E4E4] px-[1.1rem] pt-[0.1rem] pb-[0.2rem] rounded-2xl flex justify-center items-center hover:bg-[#1F1F1F] cursor-pointer nav-a min-w-max">
+          <Link href={"#"}>About Developers&apos; Society</Link>
         </div>
       </div>
-      <div className=" flex px-[4%] mr-3 justify-end items-center">
+      <div className=" flex px-[4%] mr-3 justify-end items-center grow">
         <div className=" text-[#868686] font-normal hover:text-[#E4E4E4] rounded-2xl flex justify-center items-center cursor-pointer">
           <Link href={"/dashboard"}>Contact</Link>
         </div>
